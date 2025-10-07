@@ -1,9 +1,3 @@
-# self-hosted-n8n with custom RandomNumber node
-
-This repository runs an n8n instance in Docker Compose and includes a custom programmatic node (Random Number) under `custom-nodes/n8n-nodes-randomnumber`.
-
-Quick start (PowerShell):
-
 ## self-hosted n8n com node customizado (RandomNumber)
 
 Este repositório fornece um ambiente self-hosted do n8n orquestrado com Docker Compose e com suporte para um pacote de node customizado localizado em `custom-nodes/n8n-nodes-randomnumber`.
@@ -53,7 +47,7 @@ Observação: neste repositório o fluxo de build do node customizado foi execut
 1. Abra um terminal PowerShell e posicione-se na raiz do projeto:
 
 ```powershell
-cd C:\Users\diogo\testes\self-hosted-n8n-node-randomnumber
+cd ..\self-hosted-n8n-node-randomnumber
 ```
 
 2. Copie o arquivo de variáveis de ambiente de exemplo e ajuste os valores sensíveis:
